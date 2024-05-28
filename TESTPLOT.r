@@ -1,5 +1,3 @@
-install.packages("ggplot2")
-library(ggplot2)
 # Load the ggplot2 package
 library(ggplot2)
 
@@ -28,3 +26,4 @@ ggplot(data, aes(x = x, y = y, color = group)) +
     legend.position = "bottom"
   )
 ggsave("scatter_plot_with_regression_and_facets.png", plot = p)
+
